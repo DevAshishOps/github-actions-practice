@@ -1,4 +1,4 @@
-#this code is for testing linter
+#this code is for testing linter action
 from flask import Flask, render_template
 app = Flask(__name__)
 
