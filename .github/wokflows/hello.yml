@@ -1,0 +1,18 @@
+# Workflow
+# Should have name
+name: Hello
+# on means when workflow get triggred
+on:
+  workflow_dispatch:
+# Jobs
+# Should be inside the the workflow
+jobs:
+  say-hello:
+    runs on: ubuntu-latest
+# Steps
+# should be inside the jobs
+    steps:
+      - name: Say hello to everyone
+        run: echo "Hello Dosto"
+# Actions
+#
