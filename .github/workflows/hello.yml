@@ -8,7 +8,7 @@ on:
 # Should be inside the the workflow
 jobs:
   say-hello:
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
 # Steps
 # should be inside the jobs
     steps:
