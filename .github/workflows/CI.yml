@@ -1,4 +1,4 @@
-# Goal: Build the omage for Devboard frontend and push to Docker Hub
+# Goal: Build the omage for Devboard frontend and push to Docker
 name: CI
 on: 
   push:
